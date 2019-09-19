@@ -10,7 +10,7 @@ BRANDS=[]
 
   def brand=(brand)
   @brand = brand
-  BRANDS << brand
+  BRANDS.uniq << brand
   end
 
   def cobble
